@@ -1,5 +1,5 @@
 import { apiSlice } from "./apiSlice";
-const BOOK_URL = "/api/search.json";
+const BOOK_URL = "https://openlibrary.org/search.json";
 
 export const booksApiSlice = apiSlice.injectEndpoints({
   endpoints: (builder) => ({
